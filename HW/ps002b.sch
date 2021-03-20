@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:ps002b-rescue
 LIBS:suf
 LIBS:conn
 LIBS:device
@@ -12,7 +13,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -31,7 +31,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-EELAYER 27 0
+LIBS:ps002b-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -46,7 +47,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MC34063 U1
+L MC34063-RESCUE-ps002b U1
 U 1 1 54189DB0
 P 5350 3350
 F 0 "U1" H 5150 3100 60  0000 C CNN
@@ -101,7 +102,7 @@ F 3 "~" H 5850 3650 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR01
+L GND-RESCUE-ps002b #PWR01
 U 1 1 54189ED5
 P 5850 3800
 F 0 "#PWR01" H 5850 3800 30  0001 C CNN
@@ -263,7 +264,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 4650 6250 4750
 $Comp
-L GND #PWR02
+L GND-RESCUE-ps002b #PWR02
 U 1 1 5418A239
 P 7800 4500
 F 0 "#PWR02" H 7800 4500 30  0001 C CNN
@@ -278,7 +279,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 3700 4900 3500
 $Comp
-L GND #PWR03
+L GND-RESCUE-ps002b #PWR03
 U 1 1 5418A2A6
 P 4900 4150
 F 0 "#PWR03" H 4900 4150 30  0001 C CNN
@@ -304,7 +305,7 @@ Wire Wire Line
 	4900 3400 4050 3400
 Connection ~ 4050 3400
 $Comp
-L GND #PWR04
+L GND-RESCUE-ps002b #PWR04
 U 1 1 5418A3C4
 P 4050 3700
 F 0 "#PWR04" H 4050 3700 30  0001 C CNN
@@ -328,7 +329,7 @@ F 3 "" H 3850 4300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L GND-RESCUE-ps002b #PWR05
 U 1 1 541A54B8
 P 3350 4900
 F 0 "#PWR05" H 3350 4900 30  0001 C CNN
@@ -388,7 +389,7 @@ Wire Wire Line
 Connection ~ 7550 4650
 Connection ~ 7800 4425
 $Comp
-L MC34063 U2
+L MC34063-RESCUE-ps002b U2
 U 1 1 54207458
 P 5350 4700
 F 0 "U2" H 5150 4450 60  0000 C CNN
@@ -432,7 +433,7 @@ F 3 "~" H 6000 4950 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR08
+L GND-RESCUE-ps002b #PWR08
 U 1 1 54207476
 P 6250 5300
 F 0 "#PWR08" H 6250 5300 30  0001 C CNN
@@ -467,7 +468,7 @@ $EndComp
 Wire Wire Line
 	4900 5050 4900 4850
 $Comp
-L GND #PWR09
+L GND-RESCUE-ps002b #PWR09
 U 1 1 542074EC
 P 4900 5500
 F 0 "#PWR09" H 4900 5500 30  0001 C CNN

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:ps002-rescue
 LIBS:suf
 LIBS:conn
 LIBS:device
@@ -12,7 +13,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -32,7 +32,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:ps002-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -47,7 +47,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MC34063 U1
+L MC34063-RESCUE-ps002 U1
 U 1 1 54189DB0
 P 5350 3350
 F 0 "U1" H 5150 3100 60  0000 C CNN
@@ -102,7 +102,7 @@ F 3 "~" H 5850 3650 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR01
+L GND-RESCUE-ps002 #PWR01
 U 1 1 54189ED5
 P 5850 3800
 F 0 "#PWR01" H 5850 3800 30  0001 C CNN
@@ -293,7 +293,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 3425 6300 3425
 $Comp
-L GND #PWR02
+L GND-RESCUE-ps002 #PWR02
 U 1 1 5418A239
 P 7850 3500
 F 0 "#PWR02" H 7850 3500 30  0001 C CNN
@@ -318,7 +318,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 3700 4900 3500
 $Comp
-L GND #PWR03
+L GND-RESCUE-ps002 #PWR03
 U 1 1 5418A2A6
 P 4900 4150
 F 0 "#PWR03" H 4900 4150 30  0001 C CNN
@@ -347,7 +347,7 @@ Wire Wire Line
 	4900 3400 4450 3400
 Connection ~ 4450 3400
 $Comp
-L GND #PWR04
+L GND-RESCUE-ps002 #PWR04
 U 1 1 5418A3C4
 P 4450 3700
 F 0 "#PWR04" H 4450 3700 30  0001 C CNN
@@ -371,7 +371,7 @@ F 3 "" H 3650 3050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L GND-RESCUE-ps002 #PWR05
 U 1 1 541A54B8
 P 3150 3650
 F 0 "#PWR05" H 3150 3650 30  0001 C CNN
